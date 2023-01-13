@@ -14,10 +14,17 @@
 
 /***** 02 Deklaration + Wertzuweisung I *******/
 
-let firstName; // Deklaration - (Definition)
-firstName = "Max"; // Wertzuweisung
-console.log(firstName);
+// let firstName; // Deklaration - (Definition)
+// firstName = "Max"; // Wertzuweisung
+// console.log(firstName);
 
-let familyName = "Mütze";
-console.log(familyName);
-console.log(firstName + " " + familyName);
+// let familyName = "Mütze";
+// console.log(familyName);
+// console.log(firstName + " " + familyName);
+
+let test;
+test = "hallo";
+test = 2;
+test = true;
+console.log("Datenyp: " + typeof test);
+console.log("Inhalt: " + test);
