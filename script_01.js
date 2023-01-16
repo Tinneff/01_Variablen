@@ -24,11 +24,12 @@
 
 /***** 03 Deklaration + Wertzuweisung II *******/
 
-let firstName, familyName;
-firstName = prompt("Bitte Vornamen eingeben"); // Wertzuweisung
-familyName = prompt("Bitte Nachnamen eingeben"); // Wertzuweisung
+// let firstName, familyName;
+// firstName = prompt("Bitte Vornamen eingeben"); // Wertzuweisung
+// familyName = prompt("Bitte Nachnamen eingeben"); // Wertzuweisung
+// console.log(firstName + " " + familyName); // Ausgabe
 
-console.log(firstName + " " + familyName); // Ausgabe
+// console.log("Datentyp: " + typeof firstName);
 
 /* JS ist eine untypisierte Sprache! | untyped */
 
@@ -45,3 +46,20 @@ console.log(firstName + " " + familyName); // Ausgabe
 // const test = "hallo";  // Variable mit KONSTANTEM Inhalt
 // test = "hi"; // KEINE neue Zuweisung zur LZ möglich! --> Fehler
 // console.log("Inhalt: " + test); // Ausgabe
+
+// Deklaration
+const birthYearJohn = 2000;
+const birthYearMark = 1990;
+let ageJohn, ageMark;
+
+// let year = 2023;
+
+let date = new Date();
+let year = date.getFullYear();
+
+// Berechnung
+ageJohn = year - birthYearJohn;
+ageMark = year - birthYearMark;
+
+console.log(ageJohn);
+console.log(ageMark);
